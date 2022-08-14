@@ -1,0 +1,44 @@
+.single-movie {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  background-color: aliceblue;
+
+  .poster-img {
+    width: 400px;
+    height: 80vh;
+    box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.45);
+
+    img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .point {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+
+  .single-movie_details {
+    width: 400px;
+    height: 80vh;
+    padding: 1rem;
+    box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.45);
+    -webkit-box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 2px 5px 4px rgba(0, 0, 0, 0.45);
+    background-color: #fff;
+    .details-text {
+      display: block;
+      margin-top: 1rem;
+    }
+  }
+}

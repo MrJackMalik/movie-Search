@@ -1,0 +1,21 @@
+.TV-item {
+  width: 250px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(10, 107, 218);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.point {
+  position: absolute;
+  top: 0;
+  background-color: rgb(34, 126, 231);
+  padding: 7px 12px;
+  border-start-start-radius: 8px;
+  border-bottom-left-radius: 8px;
+  right: 0;
+}

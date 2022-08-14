@@ -1,0 +1,24 @@
+.movie-item {
+  width: 250px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(135, 169, 207);
+  border-radius: 8px;
+  position: relative;
+  margin-bottom: 50px;
+  box-shadow: 4px 6px 16px 1px rgba(0, 0, 0, 0.48);
+  -webkit-box-shadow: 4px 6px 16px 1px rgba(0, 0, 0, 0.48);
+  -moz-box-shadow: 4px 6px 16px 1px rgba(0, 0, 0, 0.48);
+}
+
+.point {
+  position: absolute;
+  top: 0;
+  background-color: rgb(34, 126, 231);
+  padding: 7px 12px;
+  border-start-start-radius: 8px;
+  border-bottom-left-radius: 8px;
+  right: 0;
+}
