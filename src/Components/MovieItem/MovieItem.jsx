@@ -4,7 +4,7 @@ import "./MovieItem.scss";
 export const MovieItem = ({ obj }) => {
   return (
     <Link to={`/movie/${obj.id}`}>
-      <li key={obj.id} className="movie-item">
+      <li className="movie-item">
         <img
           src={`https://image.tmdb.org/t/p/w500/${obj.poster_path}`}
           alt={obj.original_title}

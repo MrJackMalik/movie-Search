@@ -25,7 +25,7 @@ export const Popular = () => {
       <div className="container">
         <ul className="popular-list">
           {data.map((e) => (
-            <MovieItem obj={e} />
+            <MovieItem key={e.id} obj={e} />
           ))}
         </ul>
       </div>

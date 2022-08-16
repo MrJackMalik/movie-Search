@@ -7,10 +7,10 @@ export const TvItem = ({ obj }) => {
       <li className="TV-item">
         <img
           src={`https://image.tmdb.org/t/p/w500/${obj.poster_path}`}
-          alt={obj.original_title}
+          alt={obj.name}
         />
         <div className="TV__body">
-          <h2>{obj.original_title}</h2>
+          <h2>{obj.name}</h2>
           <span className="point">{obj.vote_average}</span>
           <p>{obj.id}</p>
           <p>{obj.release_date}</p>

@@ -24,7 +24,7 @@ export const Upcoming = () => {
       <div className="container">
         <ul className="top-rated-list">
           {upcoming.map((e) => (
-            <MovieItem obj={e} />
+            <MovieItem key={e.id} obj={e} />
           ))}
         </ul>
       </div>

@@ -61,7 +61,7 @@ export const Header = () => {
               <input
                 className="header-input"
                 type="text"
-                placeholder="Search..."
+                placeholder="Search"
               />
             </li>
           </ul>

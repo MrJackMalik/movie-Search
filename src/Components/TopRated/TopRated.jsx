@@ -24,7 +24,7 @@ export const TopRated = () => {
       <div className="container">
         <ul className="top-rated-list">
           {rate.map((e) => (
-            <MovieItem obj={e} />
+            <MovieItem key={e.id} obj={e} />
           ))}
         </ul>
       </div>
